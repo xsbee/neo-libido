@@ -1,2 +1,1 @@
-# neo-libido
-libido rewrite in Rust.
+*libido* is the paramount of perversive use of science. With due respect to Sir Y. E. Morder, without whose untiring effort this project would've been a mere fantasy, I, dedicate this project to the nineteenth century's neurologist, psychosexual theory and to those erotically salivating females.
