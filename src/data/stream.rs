@@ -10,6 +10,7 @@ pub struct Stream {
     pub extension: String,
     pub mime_type: String,
     pub width: u16,
+    /// Vertical resoution of MPEG-DASH stream.
     #[serde(deserialize_with = "stred_int_to_float")]
     pub height: u16,
     pub duration_in_ms: u64,
