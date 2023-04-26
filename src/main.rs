@@ -46,6 +46,7 @@ struct Cli {
 
 use reqwest;
 
+// TODO put this structure elsewhere
 pub(crate) struct Client {
     client: reqwest::blocking::Client,
 }
@@ -75,6 +76,7 @@ struct PageIterator<'b> {
     num_pages: Option<usize>
 }
 
+// TODO Implement absolute indexing, facilitating use of .nth()
 impl<'b> Iterator for PageIterator<'b> {
     type Item = reqwest::Result<response::Response>;
 
